@@ -11,8 +11,6 @@ class Application
       resp.write "Good Afternoon"
     end
 
-    resp.write "\nThe current time is #{t}"
-
     resp.finish
   end
 
