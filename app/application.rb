@@ -8,10 +8,10 @@ class Application
     if t.hour < 12
       resp.write "Good Morning"
     else
-      resp.write "Good Afternoon\n"
+      resp.write "Good Afternoon"
     end
 
-    resp.write "The current time is #{t}"
+    resp.write "\nThe current time is #{t}"
 
     resp.finish
   end
