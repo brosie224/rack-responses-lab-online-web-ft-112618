@@ -11,7 +11,7 @@ class Application
       resp.write "Good Afternoon"
     end
 
-    resp.write "The current hour is #{t}"
+    resp.write "The current time is #{t}"
 
     resp.finish
   end
